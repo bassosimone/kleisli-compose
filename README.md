@@ -52,10 +52,17 @@ Otherwise, make sure you have Python >= 3.12 installed.
 
 ## Running examples
 
-To run the first example, execute:
+To run the first example from the `.venv`, execute:
 
 ```bash
 python examples/000.py
+```
+
+Otherwise, you should use these commands:
+
+```bash
+export PYTHONPATH=.
+python3 examples/000.py
 ```
 
 You can run subsequent examples by changing the file name.
